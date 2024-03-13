@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-image: url(banner/banner-5.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-image: url(banner/banner-2.png);
+    background-position: center ;
+    height: 70vh;
+    width: 80%;
+    border-radius: 50px;
+    padding: 0 4%;
+}
+.bayangan{
+    position: absolute;
+    margin-bottom: 21%;
+    margin-right: 90px;
+    background-color: #5C3A92;
+    margin-right: 20%;
+    width: 90%;
+    height: 35vh;
+    border-radius: 50px 50px 0 0;
+}
+.info{
+    z-index: 1;
+}
+.image{
+    width: 500px;
+}
+.container p{
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 15%;
+    letter-spacing: 1px;
+}
+.container h1{
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: red;
+}
+button{
+    width: 20%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FFDE59;
+    margin-top: 20px;
+}
+button a{
+    color: #5C3A92;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color: #d8bc4d;
+}

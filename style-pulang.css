@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(banner/banner-5.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.navbar-value::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #ffffff ;
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+.home{
+    background-color: #5C3A92;
+    padding: 4px 7px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.home:hover{
+    background-color: #beacff;
+    color: white;
+}
+.card{
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    background-color: white;
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    border-radius: 50px;
+}
+span{
+    width: 90%;
+    height: 40vh;
+    border-radius: 50px 50px 0 0 ;
+    position: absolute;
+    top: 20vh;
+    left: 5%;
+    background-color:#e4e3e3 ;
+}
+.left-side{
+    z-index: 1;
+}
+.left-side img{
+    width: 200%;
+    margin-bottom: 2%;
+}
+.left-side button{
+    padding: 3% 5% ;
+    border: none;
+    background-color: #d8bc4d;
+    border-radius: 50px;
+}
+.left-side button:hover{
+    background-color: #5C3A92;
+}
+.left-side button a{
+    font-weight: 700;
+    color: #3d295e;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 100%;
+    padding: 4px 0;
+}
+.left-side button a:hover{
+    color: #ffffff;
+}
+.right-side{
+    z-index: 1;
+    margin-left: 20%;
+}
+.right-side h1{
+    font-size: 29px;
+    margin-bottom: 2%;
+}
+.right-side p{
+    margin: 2% 0;
+    line-height: 25px;
+}
+.button button{
+    background-color: #d8bc4d;
+    padding: 0.5% 1%;
+    border: none;
+    border-radius: 50px;
+}
+.button button:hover{
+    background-color: #5C3A92;
+}
+.button button a{
+    color: #5C3A92;
+    padding: 5px 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.button button a:hover{
+    color: white;
+}
